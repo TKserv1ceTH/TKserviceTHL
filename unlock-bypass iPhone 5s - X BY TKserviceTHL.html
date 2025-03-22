@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlock & Bypass</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* ส่วน Header */
+        .header {
+            background-color: #0a5a2a;
+            color: white;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header img {
+            height: 50px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            position: relative;
+            padding: 5px;
+        }
+
+        .nav a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: #2ecc71;
+            transition: width 0.3s;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .nav a:hover::after {
+            width: 100%;
+        }
+
+        /* Container หลัก */
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 200px auto;
+            flex-grow: 1;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .section {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 255, 0, 0.2);
+            width: 295px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 8px 20px rgba(0, 255, 0, 0.3);
+        }
+
+        h2 {
+            color: #2ecc71;
+            margin-bottom: 15px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: #ffffff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+            box-shadow: 0px 4px 10px rgba(0, 255, 0, 0.3);
+            margin: 10px 0;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+            box-shadow: 0px 6px 14px rgba(0, 255, 0, 0.5);
+        }
+
+        button:active {
+            background-color: #27ae60;
+            box-shadow: 0px 4px 8px rgba(0, 255, 0, 0.4);
+        }
+
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(46, 204, 113, 0.7);
+        }
+
+        /* ส่วน Footer */
+        .footer {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer img {
+            height: 40px;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .container {
+                margin: 30px auto;
+            }
+
+            .section {
+                width: 100%;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ส่วน Header -->
+    <div class="header">
+        <img src="logo.png" alt="โลโก้">
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Registration</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+
+    <!-- เนื้อหาหลัก -->
+    <div class="container">
+        <div class="section">
+            <h2>โปรแกรมพื้นฐาน</h2>
+            <a href="https://www.ultraviewer.net/th/UltraViewer_setup_6.6_th.exe" target="_blank">
+                <button>ดาวน์โหลด Ultraviewer</button>
+            </a>
+            <a href="https://file.unlocktool.net/" target="_blank">
+                <button>ดาวน์โหลด UnlockTool</button>
+            </a>
+            <a href="https://url2.3u.com/MNBBfyaa" target="_blank">
+                <button>ดาวน์โหลด 3UTool</button>
+            </a>
+        </div>
+    
+        <div class="section">
+            <h2>ปลดล็อกรหัส Android</h2>
+            <a href="https://driver-unlocktool.s3-hcm-r1.s3cloud.vn/Driver_Qualcomm_Mtk_2.0.1.zip" target="_blank">
+                <button>Driver QC + MTK 2.0.1</button>
+            </a>
+            <a href="https://driver-unlocktool.s3-hcm-r1.s3cloud.vn/Driver%20Huawei%20USB%201.0%20Kirin%20Flash%20Device%202.01.02.00.zip" target="_blank">
+                <button>Driver Huawei USB 1.0</button>
+            </a>
+            <a href="https://driver-unlocktool.s3-hcm-r1.s3cloud.vn/Driver_SPD_Spreadtrum_77xx.zip" target="_blank">
+                <button>Driver SPD Spreadtrum</button>
+            </a>
+        </div>
+   
+        <div class="section">
+            <h2>Bypass iPhone 5s - X</h2>
+            <a href="https://file.unlocktool.net/" target="_blank">
+                <button>Ramdisk - iPhone</button>
+            </a>
+            <a href="https://mega.nz/folder/R8By0ZiK#4YM_HLtYjq5d3lK-ot1pLg/file/1pIyGT5b" target="_blank">
+                <button>LPro Max V1.1 Windows</button>
+            </a>
+            <a href="https://www.mediafire.com/file_premium/hy8dt11iakmkdnp/WinRa1n2.1_Jailbreak_iPhone_%252B_iPad.rar/file" target="_blank">
+                <button>Jailbreak iPhone + iPad</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- ส่วน Footer -->
+    <div class="footer">
+        © 2025 TKserviceTHL.com All rights reserved
+        <br>
+        <img src="visa.png" alt="Visa">
+        <img src="paypal.png" alt="PayPal">
+        <img src="mastercard.png" alt="MasterCard">
+        <img src="ebay.png" alt="eBay">
+    </div>
+
+</body>
+</html>
