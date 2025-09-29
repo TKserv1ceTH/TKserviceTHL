@@ -1,3 +1,5 @@
-TKserviceTHL — Ready 🇹🇭
-Connect device in Fastboot mode to auto-detect
-Supported by SHUT-Lap
+TKserviceTHL — 🇹🇭 Ready to use
+Plug your device into Fastboot mode and wait for the data to be automatically read.
+Power by TKserviceTHL X SHUT-Lap
+You can order an FRP key at
+www.facebook.com/TKServiceTHAILAND
