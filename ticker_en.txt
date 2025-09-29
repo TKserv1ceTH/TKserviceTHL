@@ -1,5 +1,6 @@
 TKserviceTHL — 🇹🇭 Ready to use
-Plug your device into Fastboot mode and wait for the data to be automatically read.
+Boot your device to Fastboot mode and wait for the data to be automatically read.
 Power by TKserviceTHL X SHUT-Lap
 You can order an FRP key at
 www.facebook.com/TKServiceTHAILAND
+
