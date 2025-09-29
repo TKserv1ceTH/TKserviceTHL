@@ -1,0 +1,3 @@
+TKserviceTHL — Ready 🇹🇭
+Connect device in Fastboot mode to auto-detect
+Supported by SHUT-Lap
